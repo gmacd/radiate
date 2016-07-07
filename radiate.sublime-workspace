@@ -1,0 +1,2193 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"numSteps",
+				"numStepsToExecute"
+			],
+			[
+				"ear",
+				"earliestStep"
+			],
+			[
+				"loops",
+				"loopSubSteps"
+			],
+			[
+				"sub",
+				"substeps"
+			],
+			[
+				"loop",
+				"loopSelected"
+			],
+			[
+				"edit",
+				"editField"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"fie",
+				"fieldIdxStr"
+			],
+			[
+				"parse",
+				"parseInt"
+			],
+			[
+				"field",
+				"fieldValues"
+			],
+			[
+				"edi",
+				"editField"
+			],
+			[
+				"desc",
+				"descElems"
+			],
+			[
+				"selected",
+				"selectedSteps"
+			],
+			[
+				"pr",
+				"PropTypes"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"sele",
+				"selectedEntityId"
+			],
+			[
+				"select",
+				"selectedEntityId"
+			],
+			[
+				"_scale",
+				"_scaleMat"
+			],
+			[
+				"anch",
+				"anchorRadius"
+			],
+			[
+				"mid",
+				"midpoint"
+			],
+			[
+				"anchor",
+				"anchorPointDef"
+			],
+			[
+				"Botto",
+				"BottomRight"
+			],
+			[
+				"new",
+				"newTranslate"
+			],
+			[
+				"b",
+				"byte"
+			],
+			[
+				"Cen",
+				"RotateCentreOffsetY"
+			],
+			[
+				"Adjus",
+				"AdjustPtMoveFillColour"
+			],
+			[
+				"adju",
+				"adjustPoints"
+			],
+			[
+				"drag",
+				"dragEnd"
+			],
+			[
+				"other",
+				"otherStep"
+			],
+			[
+				"setPropert",
+				"setPropertyOf"
+			],
+			[
+				"getProp",
+				"getPropertyTypeOf"
+			],
+			[
+				"prop",
+				"propertyType"
+			],
+			[
+				"selec",
+				"selectedEntity"
+			],
+			[
+				"radiu",
+				"radiusXy"
+			],
+			[
+				"name",
+				"nameExists"
+			],
+			[
+				"entity",
+				"entityIdStr"
+			],
+			[
+				"inter",
+				"interactionMode"
+			],
+			[
+				"me",
+				"methodName"
+			],
+			[
+				"loopi",
+				"loopIdxName"
+			],
+			[
+				"crea",
+				"createsEntity"
+			],
+			[
+				"entit",
+				"entityId"
+			],
+			[
+				"step",
+				"stepId"
+			],
+			[
+				"list-sty",
+				"list-style-type"
+			],
+			[
+				"line",
+				"lineColour"
+			],
+			[
+				"sel",
+				"selectedEntity"
+			],
+			[
+				"newD",
+				"newDirIsRight"
+			],
+			[
+				"modal",
+				"modalDialogVisible"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"dir",
+				"dirIsRight"
+			],
+			[
+				"rg",
+				"rgb()"
+			],
+			[
+				"add",
+				"addCommand"
+			],
+			[
+				"C",
+				"Command"
+			],
+			[
+				"Add",
+				"AddCircle"
+			],
+			[
+				"Draw",
+				"DrawMode"
+			],
+			[
+				"findopen",
+				"FindOpenGL"
+			],
+			[
+				"Drag",
+				"DragStart"
+			],
+			[
+				"update",
+				"updateForMouseUp"
+			],
+			[
+				"up",
+				"updateForMouseUp"
+			],
+			[
+				"prev",
+				"prevDragState"
+			],
+			[
+				"REa",
+				"React.Component\tComponent Template (ES2015)"
+			],
+			[
+				"nex",
+				"nextDragState"
+			],
+			[
+				"DR",
+				"DRAG_STATE_NONE"
+			],
+			[
+				"curr",
+				"currDragState"
+			],
+			[
+				"draw",
+				"drawCanvasNode"
+			],
+			[
+				"ADD",
+				"ADD_RECT"
+			],
+			[
+				"compo",
+				"componentDidMount\tLife Cycle Method"
+			],
+			[
+				"trans",
+				"translationStr"
+			],
+			[
+				"rem",
+				"remainingStr"
+			],
+			[
+				"expe",
+				"expectResult"
+			],
+			[
+				"exp",
+				"expectNumber"
+			],
+			[
+				"i",
+				"imp\tImport"
+			],
+			[
+				"p",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"scen",
+				"scenePath\tstring ν"
+			],
+			[
+				"read",
+				"ReadAll\t[]byte, error ƒ"
+			],
+			[
+				"main",
+				"func main\tfunc main {...} ʂ"
+			],
+			[
+				"Curs",
+				"CursorMode\t Ɩ"
+			],
+			[
+				"fon",
+				"fontData\t*fontData ν"
+			],
+			[
+				"tr",
+				"Trim\tstring ƒ"
+			],
+			[
+				"Eq",
+				"Equal\tbool ƒ"
+			],
+			[
+				"con",
+				"Contains\tbool ƒ"
+			],
+			[
+				"Err",
+				"Errorf\t ƒ"
+			],
+			[
+				"fnt",
+				"fntDataPath\tstring ν"
+			],
+			[
+				"n",
+				"Name\tstring ν"
+			],
+			[
+				"v",
+				"verts\t[]meshVertex ν"
+			],
+			[
+				"Shad",
+				"Shaders\tstruct ʈ"
+			],
+			[
+				"subme",
+				"subMeshes\t ν"
+			],
+			[
+				"num",
+				"numSubMeshes\tint ν"
+			],
+			[
+				"prin",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"gl",
+				"GlErrorCheck\terror, int ƒ"
+			],
+			[
+				"In",
+				"Intensity\tmgl.Vec3 ν"
+			],
+			[
+				"sh",
+				"ShaderName\tstring ν"
+			],
+			[
+				"mesh",
+				"meshData\t*ObjMesh ν"
+			],
+			[
+				"uni",
+				"uniformParam\tstruct ʈ"
+			],
+			[
+				"sha",
+				"shaderParam\tstruct ʈ"
+			],
+			[
+				"trim",
+				"TrimSpace\tstring ƒ"
+			],
+			[
+				"numa",
+				"numAttribElems\tint32 ν"
+			],
+			[
+				"GetIntege",
+				"GetIntegerv\t ƒ"
+			],
+			[
+				"GEtin",
+				"GetIntegerv\t ƒ"
+			],
+			[
+				"getp",
+				"GetProgramiv\t ƒ"
+			],
+			[
+				"valid",
+				"VALIDATE_STATUS\t Ɩ"
+			],
+			[
+				"pro",
+				"projLocation\tint32 ν"
+			],
+			[
+				"ty",
+				"Type\tinterface ¡"
+			],
+			[
+				"w",
+				"World\t*mgl.Mat4 ƒ"
+			],
+			[
+				"tra",
+				"Transpose\tmgl32.Mat3 ƒ"
+			],
+			[
+				"in",
+				"Inv\tmgl32.Mat3 ƒ"
+			],
+			[
+				"m",
+				"Mat3\tmgl32.Mat3 ƒ"
+			],
+			[
+				"val",
+				"ValueOf\treflect.Value ƒ"
+			],
+			[
+				"f",
+				"fn\tinterface{} ν"
+			],
+			[
+				"Is",
+				"IsValid\tbool ƒ"
+			],
+			[
+				"Val",
+				"ValueOf\treflect.Value ƒ"
+			],
+			[
+				"pt",
+				"Println\tn int, err error ƒ"
+			],
+			[
+				"com",
+				"componentIdToUpdateFunc\t[]reflect.Value ν"
+			],
+			[
+				"Id",
+				"Ident4\tmgl32.Mat4 ƒ"
+			],
+			[
+				"Mater",
+				"MaterialAttribute\tstruct ʈ"
+			],
+			[
+				"mater",
+				"materialAttrib\tgfx.MaterialAttribute ν"
+			],
+			[
+				"Uniform",
+				"Uniform1d\t ƒ"
+			],
+			[
+				"Mesh",
+				"MeshVertex\tstruct ʈ"
+			],
+			[
+				"vec",
+				"Vec3\t[3]float32 ʈ"
+			],
+			[
+				"keye",
+				"KeyEnter\t Ɩ"
+			],
+			[
+				"Keysp",
+				"KeySpace\t Ɩ"
+			],
+			[
+				"key",
+				"Key0\t Ɩ"
+			],
+			[
+				"wo",
+				"worldDirty\tbool ν"
+			],
+			[
+				"parent",
+				"parentTx\t*Transform ν"
+			],
+			[
+				"Vec",
+				"Vec3\t[3]float32 ʈ"
+			],
+			[
+				"unif",
+				"uniforms\t ν"
+			],
+			[
+				"render",
+				"renderShaderCommand\tstruct ʈ"
+			],
+			[
+				"sp",
+				"Sprintf\tstring ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Makefile",
+			"settings":
+			{
+				"buffer_size": 965,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/graham/Documents/Code/old/rt/src/main.cpp",
+			"settings":
+			{
+				"buffer_size": 419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#include <cstdio>\n\nint main()\n{\n    csRegisterSignalHandlers();\n\n\tprintf(\"radiate\\n\");\n\n    Image img(640, 480);\n    for (auto y = 0; y < img.Height(); y++)\n    {\n        for (auto x = 0; x < img.Width(); x++)\n        {\n            img.Set(x, y, Colours::Red);\n        }\n\n    }\n    \n    img.WritePng(\"out.png\");\n\n\treturn 0;\n}\n",
+			"file": "src/main.cpp",
+			"file_size": 67,
+			"file_write_time": 131123869700000000,
+			"settings":
+			{
+				"buffer_size": 326,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/image.hpp",
+			"settings":
+			{
+				"buffer_size": 390,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/debug.hpp",
+			"settings":
+			{
+				"buffer_size": 127,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/core/debug.cpp",
+			"settings":
+			{
+				"buffer_size": 2314,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 140.0,
+		"last_filter": "sh",
+		"selected_items":
+		[
+			[
+				"sh",
+				"SublimeREPL: Shell"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"upda",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"she",
+				"SublimeREPL: Shell"
+			],
+			[
+				"shell",
+				"SublimeREPL: Shell"
+			],
+			[
+				"word",
+				"Word Wrap: Toggle"
+			],
+			[
+				"glue",
+				"Glue - Launch"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"term",
+				"Terminal: Open"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"wr",
+				"Word Wrap: Toggle"
+			],
+			[
+				"wrp",
+				"Word Wrap: Toggle"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Browse Packages"
+			],
+			[
+				"elm",
+				"Elm Language Support: Show type"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"fmt",
+				"GoSublime: Fmt and save"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"refre",
+				"Project: Refresh Folders"
+			],
+			[
+				"error",
+				"GoSublime: Show errors"
+			],
+			[
+				"go doc",
+				"GoSublime: Show documentation hint"
+			],
+			[
+				"goi",
+				"GoImports"
+			],
+			[
+				"env",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"include",
+				"Snippet: #include <…>"
+			],
+			[
+				"iota",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"err",
+				"GoSublime: Show errors"
+			],
+			[
+				"GoSublime: ",
+				"GoSublime: Show call tip"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"gosub",
+				"GoSublime: Changes & Announcements"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"gosub us",
+				"GoSublime: Usage & Tips"
+			],
+			[
+				"gosublime",
+				"GoSublime: Read Me"
+			],
+			[
+				"gosub ann",
+				"GoSublime: Changes & Announcements"
+			],
+			[
+				"gdb",
+				"SublimeGDB: Start Debugging"
+			],
+			[
+				"import",
+				"Snippet: Import"
+			],
+			[
+				"dart",
+				"Build: Dart Run"
+			],
+			[
+				"pcakage",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"conv",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"spACEs",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"jsh",
+				"JSHint: Linter"
+			],
+			[
+				"jshi",
+				"JSHint"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"hint",
+				"JSHint"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScriptNext"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"Snippet: html",
+				"Snippet: html"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"repl",
+				"SublimeREPL: Clojure"
+			],
+			[
+				"upgr",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"brack",
+				"Bracket Highlighter: Match Brackets"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"doc",
+				"Goto Documentation"
+			],
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"gosub pa",
+				"GoSublime: Add/Remove package"
+			],
+			[
+				"sublime",
+				"GoSublime: Show call tip"
+			],
+			[
+				"gosub ",
+				"GoSublime: Add/Remove package"
+			],
+			[
+				"gosub imp",
+				"GoSublime: Install/Update MarGo and Gocode"
+			],
+			[
+				"sub err",
+				"GoSublime: Show errors"
+			],
+			[
+				"gosub call",
+				"GoSublime: Show call tip"
+			],
+			[
+				"gosub err",
+				"GoSublime: Show errors"
+			]
+		],
+		"width": 468.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read()) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/graham/Documents/Code/radiate",
+		"/Users/graham/Documents/Code/radiate/src",
+		"/Users/graham/Documents/Code/radiate/src/core",
+		"/Users/graham/Documents/Code/radiate/src/third",
+		"/Users/graham/Documents/Code/radiate/src/third/include"
+	],
+	"file_history":
+	[
+		"/Users/graham/Documents/Code/radiate/src/main_test.cpp",
+		"/Users/graham/Documents/Code/radiate/src/core/maths.cpp",
+		"/Users/graham/Documents/Code/radiate/src/core/debug.hpp",
+		"/Users/graham/Documents/Code/radiate/src/main.cpp",
+		"/Users/graham/Documents/Code/radiate/src/third/include/tinyformat.h",
+		"/Users/graham/Documents/Code/radiate/src/third/include/catch.hpp",
+		"/Users/graham/Documents/Code/radiate/src/third/include/stb_image_write.h",
+		"/Users/graham/Documents/Code/radiate/src/core/maths.h",
+		"/Users/graham/Documents/Code/old/rt/src/main_test.cpp",
+		"/Users/graham/Documents/Code/radiate/src/core_maths.h",
+		"/Users/graham/Documents/Code/radiate/src/core_maths.cpp",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/runner.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/reducers/canvasInteraction.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/testPrograms.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/store/initialState.js",
+		"/Users/graham/Documents/Code/apex/plan.txt",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/expr.pegjs",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/__tests__/steps-test.js",
+		"/Users/graham/Documents/Code/apex/app/client/css/styles.css",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/stepsPanel.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/drawing.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/actions/actions.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/actions/actionTypes.js",
+		"/Users/graham/Downloads/NSPL_MAY_2016_csv/Data/NSPL_MAY_2016_UK.csv",
+		"/Users/graham/Downloads/KT172NG.rdf",
+		"/Users/graham/Downloads/postcodes.nt",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/expr.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/evalExprs.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/executionStack.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/__tests__/exprEval-test.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/utils.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/__tests__/parser-test.js",
+		"/Users/graham/Documents/Code/apex/package.json",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/parser.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/tests/test-test.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/stepDesc.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/canvas.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/controlPanel.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/inputsPanel.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/properties.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/colourPicker.jsx",
+		"/apex/app/client/src/components/controlPanel.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/steps.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/vec2.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/rgba.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/entities.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/program.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/dom.js",
+		"/Users/graham/Documents/Code/apex/dist/bundle.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/shapes.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/modeSelector.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/maths.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/containers/app.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/mat3.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/anchorPoint.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/interactionMode.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/anchorPoint.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/axis.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/algo.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/colourSwatch.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/marshaller.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/store/localStorageMiddleware.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/library.jsx",
+		"/Users/graham/Library/Application Support/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/orderedSet.js",
+		"/Users/graham/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/drawContextState.js",
+		"/Users/graham/Documents/Code/apex/app/client/html/index.html",
+		"/Users/graham/Documents/Code/apex/app/client/src/model/drawingState.js",
+		"/Users/graham/Documents/Code/apex/app/client/src/components/app.jsx",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/ui.js",
+		"/Users/graham/Documents/Code/apex/webpack.config.js",
+		"/Users/graham/Documents/Code/apex/node_modules/material-design-lite/src/typography/README.md",
+		"/Users/graham/Documents/Code/apex/.eslintrc.json",
+		"/Users/graham/Documents/Code/apex/app/client/src/core/dragMode.js",
+		"/Users/graham/Documents/Code/apex/business.txt",
+		"/Users/graham/Library/Application Support/Sublime Text 3/Packages/User/Elm.sublime-settings",
+		"/Users/graham/Library/Application Support/Sublime Text 3/Packages/User/JSON.sublime-settings",
+		"/Users/graham/Documents/Code/elm/apex/src/Drawing.elm",
+		"/Users/graham/Documents/Code/elm/apex/src/Commands.elm",
+		"/Users/graham/Documents/Code/elm/apex/src/Steps.elm",
+		"/Users/graham/Documents/Code/elm/apex/src/main.elm",
+		"/Users/graham/Documents/Code/elm/apex/Makefile",
+		"/Users/graham/Documents/Code/elm/apex/html/index.html",
+		"/Users/graham/Documents/Code/elm/apex/src/ports.elm",
+		"/Users/graham/Documents/Code/elm/apex/Todo.txt",
+		"/Users/graham/Documents/Code/old/soar/app/client/src/components/drawCanvas.jsx",
+		"/Users/graham/Documents/Code/elm/apex/target/index.html",
+		"/Users/graham/Documents/Code/elm/apex/src/HtmlUtil.elm",
+		"/Users/graham/Documents/Code/gmacd.github.com/_posts/2016-05-28-aws.md",
+		"/Users/graham/Documents/Code/gmacd.github.com/_posts/2016-05-25-mx.md",
+		"/Users/graham/Documents/Code/elm/apex/.gitignore",
+		"/Users/graham/Documents/Code/elm/apex/build/apex.js",
+		"/Users/graham/Documents/Code/elm/apex/index.html",
+		"/Users/graham/Documents/Code/elm/apex/apex.js",
+		"/Users/graham/Documents/Code/elm/apex/src/styles.css",
+		"/Users/graham/Documents/Code/elm/apex/src/Renderer.elm",
+		"/Users/graham/Documents/Code/elm/kbd/src/main.elm",
+		"/Users/graham/Documents/Code/elm/kbd/src/ports.elm",
+		"/Users/graham/Documents/Code/elm/kbd/index.html",
+		"/Users/graham/Documents/Code/old/soar/app/client/html/index.html",
+		"/Users/graham/Documents/Code/elm/apex/src/Canvas.elm",
+		"/Users/graham/Documents/Code/gmacd.github.com/_posts/2016-05-20-hard-earned-wisdom.md",
+		"/Users/graham/Documents/Code/gmacd.github.com/_config.yml",
+		"/Users/graham/Documents/Code/gmacd.github.com/_posts/2016-05-20-basic-aws.md",
+		"/Users/graham/Documents/Code/gmacd.github.com/_posts/2016-05-20-reboot-again.md",
+		"/Users/graham/Documents/Code/elm/apex/apex.html",
+		"/Users/graham/Documents/Code/elm/apex/elm-stuff/packages/elm-lang/html/1.0.0/src/Html/Events.elm",
+		"/Users/graham/Documents/Code/elm/apex/src/CommandTests.elm",
+		"/Users/graham/Documents/Code/elm/apex/elm-package.json",
+		"/Users/graham/Documents/Code/b2/b2/CMakeFiles/b2.dir/link.txt",
+		"/Users/graham/Documents/Code/b2/b2/CMakeFiles/b2.dir/build.make",
+		"/Users/graham/Documents/Code/b2/b2/Makefile",
+		"/Users/graham/Documents/Code/b2/bgfx/.build/projects/gmake-osx/example-00-helloworld.make",
+		"/Users/graham/Documents/Code/b2/bgfx/include/bgfx/bgfx.h",
+		"/Users/graham/Documents/Code/b2/bgfx/include/bgfx/bgfxplatform.h",
+		"/Users/graham/Documents/Code/b2/b2/CMakeLists.txt",
+		"/Users/graham/Documents/Code/b2/bgfx/.build/projects/gmake-osx/bgfx-shared-lib.make",
+		"/Users/graham/Documents/Code/b2/bgfx/.build/projects/gmake-osx/bgfx.make",
+		"/Users/graham/Documents/Code/b2/b2/.gitignore",
+		"/Users/graham/Documents/Code/b2/b2/cmake/FindSDL2.cmake",
+		"/Users/graham/Documents/Code/b2/b2/b2.cpp",
+		"/Users/graham/Documents/Code/b2/b2/b2_config.h.in",
+		"/Users/graham/Documents/Code/elm/apex/Notes.txt",
+		"/Users/graham/Documents/Code/.gitignore",
+		"/Users/graham/Documents/Code/arch/.gitignore",
+		"/Users/graham/Documents/Code/soar/app/client/src/components/svgShape.jsx",
+		"/Users/graham/Documents/Code/soar/app/client/src/client.jsx"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/graham/Documents/Code/apex/app/client/src",
+			"/Users/graham/Documents/Code/apex",
+			"/Users/graham/Documents/Code/elm/apex/src,-/target/",
+			"/Users/graham/Documents/Code/elm/apex/src",
+			"/Users/graham/Documents/Code/elm/apex/src,*.elm",
+			"/Users/graham/Documents/Code/elm/apex/src",
+			"/Users/graham/Documents/Code/elm/apex/elm-stuff/packages/elm-lang",
+			"/Users/graham/Documents/Code/b2/bgfx/.build/projects/gmake-osx",
+			"/Users/graham/Documents/Code/soar/app,-/node_modules/",
+			"/Users/graham/Documents/Code/soar/app",
+			"/Users/graham/Documents/Code/soar",
+			"/Users/graham/Documents/Code/elm/noodle/elm-stuff",
+			"Bool",
+			"/Users/graham/Documents/Code/pbrt-v2",
+			"/usr/local/include/OpenEXR",
+			"/Users/graham/Documents/Code/daisy/bgfx/,*.cpp",
+			"/Users/graham/Documents/Code/daisy/bgfx/",
+			"/Users/graham/Documents/Code/daisy/bgfx/examples/06-bump",
+			"/Users/graham/Documents/Code/daisy/daisy/",
+			"/Users/graham/Documents/Code/daisy/daisy/s7.xcodeproj",
+			"/Users/graham/Documents/Code/go-s7/src/github.com/gmacd",
+			"/Users/graham/Documents/Code/go-s7/src/github.com/go-gl/mathgl",
+			"/Users/graham/Documents/Code/saturnsix/src/github.com/gmacd",
+			"/Users/graham/Documents/Code/saturnsix/src",
+			"/Users/graham/Documents/Code/saturnsix/src/github.com/gmacd",
+			"",
+			"/Users/graham/Documents/Code/go-saturnsix/src/engine,/Users/graham/Documents/Code/go-saturnsix/src/saturnsix",
+			"/Users/graham/Documents/Code/go-saturnsix/src,-github.com",
+			"/Users/graham/Documents/Code/go-saturnsix/src,-/Users/graham/Documents/Code/go-saturnsix/src/github.com",
+			"<project>",
+			"/Users/graham/Documents/Code/bitbucket/geo",
+			"*.clj",
+			"/Users/graham/Documents/Code/Velo,*.clj",
+			"/Users/graham/Documents/Code/Velo;*.clj",
+			"/Users/graham/Documents/Code/Velo"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"test",
+			"CATCH_CONFIG_MAIN",
+			"rt",
+			"resolveEntityId",
+			"runner",
+			".entityId",
+			"StepLabel",
+			"desc()",
+			"this.selec",
+			"nexts",
+			"setStepField",
+			"findin",
+			"se13",
+			"evaluate",
+			"shift",
+			"text()",
+			"peg$parse(",
+			"\\'",
+			"peg$parse",
+			"'func",
+			"\"",
+			"setState",
+			".scale",
+			"console.log",
+			"stepid",
+			"console.lo",
+			"setStepField",
+			"enter",
+			"onkey",
+			"setField",
+			"183",
+			"286",
+			"_map",
+			"_map2",
+			"newFieldValues",
+			"new Map",
+			"data-step-id",
+			"handleComponentChanged",
+			"<input",
+			"matchesElementOrAncestor",
+			"addEventListener",
+			"setState",
+			"setstate",
+			"RECT",
+			"instance",
+			"<input",
+			"instanceof",
+			"StringField",
+			"entitiesByStepId",
+			"isSvgChildElement",
+			"draginpro",
+			"dom",
+			"canvasClicked",
+			"click",
+			"getAncestor",
+			"dom",
+			"click",
+			"canvascli",
+			"selectedEntityId",
+			"hei",
+			"AddText",
+			"selectedEntityId",
+			"ADD_TEMP_STEP",
+			"tempDragStep",
+			"scaleBy",
+			"scale",
+			"rotateBy",
+			".moveBy(",
+			"isScaled",
+			"isRotated",
+			".position",
+			"LINE",
+			"position",
+			"RECT",
+			"getLocalAnchorPt",
+			"entityStepId",
+			"resolveEntityIdFromStepId",
+			"entities",
+			"createStepFromDrag",
+			"candrag",
+			"modi",
+			"selectedEntityId",
+			"data-anchor-point",
+			"getAdjustPointsForMove",
+			"data-handle-id",
+			"newRotat",
+			"newRotate",
+			"rotateBy",
+			"rotationp",
+			"centreoff",
+			"getAdjustPoints",
+			".properties",
+			"data-entity-id",
+			"candrag",
+			"line",
+			"super",
+			"moveBy",
+			"unknown interactionmode",
+			"type='number'",
+			"proptype",
+			"SetProperty",
+			"propName",
+			"label",
+			"_pos",
+			"pos",
+			"React.PropTypes.bool",
+			"immutable",
+			"checker",
+			"constructor.",
+			"SetProperty",
+			"instanceof",
+			"typeof",
+			"toRgbaString",
+			"check",
+			"addStep",
+			"addstep",
+			"addStep",
+			"SetColourOfEntity",
+			"Rgba",
+			"typeof",
+			"string",
+			"instanceof",
+			"onchange",
+			".map(",
+			"combine",
+			".scale",
+			"steps.loop",
+			"loop"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"getAdjustPointsForMove",
+			"_position",
+			"position",
+			"programFromJson",
+			"entityId",
+			"numStepsToExecute",
+			"getDomEntity",
+			"tempEntityId",
+			"colourPickerVisible",
+			"dragCtx.dragEnd",
+			"dragCtx.dragStart",
+			"'",
+			"Bool",
+			",",
+			"            \t",
+			"gfx.Shaders",
+			"Shaders",
+			"ent.Entity",
+			"ent.RenderContext",
+			"ent.InitContext",
+			"ent.UpdateContext",
+			"\"github.com/gmacd/games/engine/ent/components\"",
+			"Transform3D",
+			"numVerts",
+			"firstVertIdx",
+			"numVerts",
+			"numTriangles",
+			"keyEvent",
+			"int",
+			"core.",
+			".Z",
+			".Y",
+			".X",
+			"extractComponents",
+			"default",
+			"",
+			"default"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 965,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								388,
+								388
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 70.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/graham/Documents/Code/old/rt/src/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								105
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								88,
+								88
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/core/image.hpp",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/core/debug.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/core/debug.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2241,
+								2243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 265.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/graham/Documents/Code/go-s7/src/github.com/gmacd/s7":
+	{
+		"height": 90.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go-s7/src/github.com/gmacd/s7/gfx":
+	{
+		"height": 156.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go-saturnsix/src/core":
+	{
+		"height": 88.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go-saturnsix/src/engine/gfx/shaders":
+	{
+		"height": 102.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go-saturnsix/src/saturnsix":
+	{
+		"height": 245.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go-saturnsix/src/saturnsix/scenes":
+	{
+		"height": 88.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go/src/github.com/gmacd/tracker":
+	{
+		"height": 94.0
+	},
+	"output.9o:///Users/graham/Documents/Code/go/src/github.com/gmacd/tracker/model":
+	{
+		"height": 94.0
+	},
+	"output.9o:///Users/graham/Documents/Code/saturnsix":
+	{
+		"height": 90.0
+	},
+	"output.9o:///Users/graham/Documents/Code/saturnsix/src/github.com/gmacd/games/engine/core":
+	{
+		"height": 285.0
+	},
+	"output.9o:///Users/graham/Documents/Code/saturnsix/src/github.com/gmacd/games/engine/ent/components":
+	{
+		"height": 90.0
+	},
+	"output.9o:///Users/graham/Documents/Code/saturnsix/src/github.com/gmacd/games/engine/gfx":
+	{
+		"height": 291.0
+	},
+	"output.9o:///Users/graham/Documents/Code/saturnsix/src/github.com/gmacd/games/engine/svg":
+	{
+		"height": 270.0
+	},
+	"output.GoSublime-main-output":
+	{
+		"height": 94.0
+	},
+	"output.GoSublime-output":
+	{
+		"height": 94.0
+	},
+	"output.GsComplete.completion-hint":
+	{
+		"height": 100.0
+	},
+	"output.GsComplete.completion-hint-output":
+	{
+		"height": 100.0
+	},
+	"output.GsDoc-output":
+	{
+		"height": 100.0
+	},
+	"output.GsDoc-output-output":
+	{
+		"height": 225.0
+	},
+	"output.dart.config.check":
+	{
+		"height": 90.0
+	},
+	"output.elm_type":
+	{
+		"height": 90.0
+	},
+	"output.exec":
+	{
+		"height": 314.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.pub":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "Packages/Makefile/Make.sublime-build",
+	"project": "radiate.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"step",
+				"app/client/src/model/steps.js"
+			],
+			[
+				"runn",
+				"app/client/src/model/runner.js"
+			],
+			[
+				"init",
+				"app/client/src/store/initialState.js"
+			],
+			[
+				"inter",
+				"app/client/src/reducers/canvasInteraction.js"
+			],
+			[
+				"ini",
+				"app/client/src/store/initialState.js"
+			],
+			[
+				"test",
+				"app/client/src/testPrograms.js"
+			],
+			[
+				"pl",
+				"plan.txt"
+			],
+			[
+				"util",
+				"app/client/src/core/utils.js"
+			],
+			[
+				"pla",
+				"plan.txt"
+			],
+			[
+				"tests",
+				"app/client/src/testPrograms.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"stepdes",
+				"app/client/src/model/stepDesc.js"
+			],
+			[
+				"canvasin",
+				"app/client/src/reducers/canvasInteraction.js"
+			],
+			[
+				"stepsp",
+				"app/client/src/components/stepsPanel.jsx"
+			],
+			[
+				"rgb",
+				"app/client/src/core/rgba.js"
+			],
+			[
+				"vec",
+				"app/client/src/core/vec2.js"
+			],
+			[
+				"progr",
+				"app/client/src/model/program.js"
+			],
+			[
+				"dom",
+				"app/client/src/core/dom.js"
+			],
+			[
+				"ent",
+				"app/client/src/model/entities.js"
+			],
+			[
+				"shap",
+				"app/client/src/components/shapes.jsx"
+			],
+			[
+				"run",
+				"app/client/src/model/runner.js"
+			],
+			[
+				"ack",
+				"package.json"
+			],
+			[
+				"draw",
+				"app/client/src/components/drawing.jsx"
+			],
+			[
+				"shape",
+				"app/client/src/components/shapes.jsx"
+			],
+			[
+				"ru",
+				"app/client/src/model/runner.js"
+			],
+			[
+				"entit",
+				"app/client/src/model/entities.js"
+			],
+			[
+				"sh",
+				"app/client/src/components/shapes.jsx"
+			],
+			[
+				"canvas",
+				"app/client/src/components/canvas.jsx"
+			],
+			[
+				"math",
+				"app/client/src/core/maths.js"
+			],
+			[
+				"mat3",
+				"app/client/src/core/mat3.js"
+			],
+			[
+				"anch",
+				"app/client/src/core/anchorPoint.js"
+			],
+			[
+				"sha",
+				"app/client/src/components/shapes.jsx"
+			],
+			[
+				"st",
+				"app/client/src/model/steps.js"
+			],
+			[
+				"vec2",
+				"app/client/src/core/vec2.js"
+			],
+			[
+				"action",
+				"app/client/src/actions/actions.js"
+			],
+			[
+				"control",
+				"app/client/src/components/controlPanel.jsx"
+			],
+			[
+				"canva",
+				"app/client/src/components/canvas.jsx"
+			],
+			[
+				"contro",
+				"app/client/src/components/controlPanel.jsx"
+			],
+			[
+				"drw",
+				"app/client/src/components/drawing.jsx"
+			],
+			[
+				"in",
+				"app/client/src/store/initialState.js"
+			],
+			[
+				"te",
+				"app/client/src/testPrograms.js"
+			],
+			[
+				"steps",
+				"app/client/src/model/steps.js"
+			],
+			[
+				"mar",
+				"app/client/src/model/marshaller.js"
+			],
+			[
+				"librar",
+				"app/client/src/components/library.jsx"
+			],
+			[
+				"canv",
+				"app/client/src/components/canvas.jsx"
+			],
+			[
+				"plan",
+				"plan.txt"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"",
+				"Makefile"
+			],
+			[
+				"find",
+				"cmake/FindSDL2.cmake"
+			],
+			[
+				"html",
+				"src/HtmlUtil.elm"
+			],
+			[
+				"htm",
+				"src/HtmlUtil.elm"
+			],
+			[
+				"app",
+				"app/client/src/containers/app.jsx"
+			],
+			[
+				"deta",
+				"app/client/src/components/detailsSidebar.jsx"
+			],
+			[
+				"json",
+				"package.json"
+			],
+			[
+				"acto",
+				"app/client/src/actions/actionTypes.js"
+			],
+			[
+				"actio",
+				"app/client/src/actions/actionTypes.js"
+			],
+			[
+				"acti",
+				"app/client/src/actions/actionTypes.js"
+			],
+			[
+				"svgsha",
+				"app/client/src/components/svgShape.jsx"
+			],
+			[
+				"root",
+				"app/client/src/containers/root.jsx"
+			],
+			[
+				"roo",
+				"app/client/src/containers/root.jsx"
+			],
+			[
+				"actionty",
+				"app/client/src/actions/actionTypes.js"
+			],
+			[
+				"dev",
+				"app/client/src/containers/devTools.jsx"
+			],
+			[
+				"esli",
+				".eslintrc.json"
+			],
+			[
+				"iner",
+				"app/client/src/core/interaction.js"
+			],
+			[
+				"drawa",
+				"app/client/src/actions/drawActions.js"
+			],
+			[
+				"actiontyp",
+				"app/client/src/actions/actionTypes.js"
+			],
+			[
+				"svg",
+				"app/client/src/components/svgShape.jsx"
+			],
+			[
+				"web",
+				"webpack.config.js"
+			],
+			[
+				"draws",
+				"app/client/src/reducers/drawShapes.js"
+			],
+			[
+				"reducer",
+				"app/client/src/reducers/index.js"
+			],
+			[
+				"webp",
+				"webpack.config.js"
+			],
+			[
+				"store",
+				"app/client/src/store/configureStore.js"
+			],
+			[
+				"root.",
+				"app/client/src/containers/root.jsx"
+			],
+			[
+				"contain",
+				"app/client/src/containers/root.jsx"
+			],
+			[
+				"initials",
+				"app/client/src/store/initialState.js"
+			],
+			[
+				"configu",
+				"app/client/src/store/configureStore.dev.js"
+			],
+			[
+				"configuresto",
+				"app/client/src/store/configureStore.js"
+			],
+			[
+				"root.de",
+				"app/client/src/containers/root.dev.jsx"
+			],
+			[
+				"root.pro",
+				"app/client/src/containers/root.prod.jsx"
+			],
+			[
+				"root.js",
+				"app/client/src/containers/root.jsx"
+			],
+			[
+				"drawca",
+				"app/client/src/components/drawCanvas.jsx"
+			],
+			[
+				"configure",
+				"app/client/src/store/configureStore.dev.js"
+			],
+			[
+				"configures",
+				"app/client/src/store/configureStore.js"
+			],
+			[
+				"app.jsx",
+				"app/client/src/containers/app.jsx"
+			],
+			[
+				"drawcan",
+				"app/client/src/tests/drawCanvasTest.jsx"
+			],
+			[
+				"client.",
+				"app/client/src/client.jsx"
+			],
+			[
+				"cfg",
+				"cfg.txt"
+			],
+			[
+				".es",
+				".eslintrc.json"
+			],
+			[
+				".esl",
+				".eslintrc.js"
+			],
+			[
+				"drawshap",
+				"app/client/src/reducers/drawShapes.js"
+			],
+			[
+				"webpa",
+				"webpack.config.js"
+			],
+			[
+				"package.",
+				"package.json"
+			],
+			[
+				"tests/test.js",
+				"node_modules/fileset/tests/test.js"
+			],
+			[
+				"storete",
+				"app/client/src/tests/storeTest.js"
+			],
+			[
+				"reducers/index.js",
+				"app/client/src/reducers/index.js"
+			],
+			[
+				"dras",
+				"app/client/src/reducers/drawShapes.js"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"bb",
+				"node_modules/deeper/test/buffer-buffertools.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"corecom",
+				"src/github.com/gmacd/s7/cmp/corecomponents.go"
+			],
+			[
+				"compon",
+				"src/github.com/gmacd/s7/app/scene/Component.go"
+			],
+			[
+				"camera",
+				"src/github.com/gmacd/s7/app/scene/Camera.go"
+			],
+			[
+				"component",
+				"src/github.com/gmacd/s7/app/scene/ComponentWrapper.go"
+			],
+			[
+				"transfor",
+				"src/github.com/gmacd/s7/app/scene/Transform.go"
+			],
+			[
+				".fb",
+				"src/github.com/gmacd/s7/fb/scene.fbs"
+			],
+			[
+				"obj",
+				"src/github.com/gmacd/s7/core/encoding/obj/objToMesh.go"
+			],
+			[
+				"ass",
+				"src/github.com/gmacd/s7/app/scene/Asset.go"
+			],
+			[
+				"s7",
+				"src/github.com/gmacd/s7/s7.go"
+			],
+			[
+				"coreco",
+				"src/github.com/gmacd/s7/cmp/corecomponents.go"
+			],
+			[
+				"conte",
+				"src/github.com/gmacd/s7/app/context.go"
+			],
+			[
+				"game",
+				"src/github.com/gmacd/s7/game/game.go"
+			],
+			[
+				"s7.go",
+				"src/github.com/gmacd/s7/s7.go"
+			],
+			[
+				"input.og",
+				"src/github.com/gmacd/s7/core/input.go"
+			],
+			[
+				"gfx",
+				"src/github.com/gmacd/s7/core/gfx/gfx.go"
+			],
+			[
+				"input.",
+				"src/github.com/gmacd/s7/core/input.go"
+			],
+			[
+				"gfxu",
+				"src/github.com/gmacd/s7/core/gfx/gfxutil.go"
+			],
+			[
+				"objto",
+				"src/github.com/gmacd/s7/core/encoding/obj/objToMesh.go"
+			],
+			[
+				"mesh",
+				"src/github.com/gmacd/s7/core/gfx/mesh.go"
+			],
+			[
+				"glsl",
+				"src/github.com/gmacd/s7/core/encoding/glsl/glsl.go"
+			],
+			[
+				"mater",
+				"src/github.com/gmacd/s7/core/gfx/material.go"
+			],
+			[
+				"shader",
+				"src/github.com/gmacd/s7/core/gfx/shaders.go"
+			],
+			[
+				"gfxut",
+				"src/github.com/gmacd/s7/core/gfx/gfxutil.go"
+			],
+			[
+				"gam",
+				"src/github.com/gmacd/s7/game/game.go"
+			],
+			[
+				"obj.",
+				"src/github.com/gmacd/s7/core/encoding/obj/obj.go"
+			],
+			[
+				"objtom",
+				"src/github.com/gmacd/s7/core/encoding/obj/objToMesh.go"
+			],
+			[
+				"objme",
+				"src/github.com/gmacd/s7/core/encoding/obj/objToMesh.go"
+			],
+			[
+				"7",
+				"go-s7.sublime-project"
+			],
+			[
+				"shade",
+				"src/github.com/gmacd/s7/core/gfx/shaders.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Code/go-saturnsix/go-saturnsix.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 49.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"setstep",
+				"setStepField"
+			],
+			[
+				"updated",
+				"updateDragState"
+			],
+			[
+				"setten",
+				"setTempDragCommand"
+			],
+			[
+				"addCommand",
+				"addCommand"
+			],
+			[
+				"addcomm",
+				"addCommand"
+			],
+			[
+				"updateDragState",
+				"updateDragState"
+			],
+			[
+				"updatedrag",
+				"updateDragState"
+			],
+			[
+				"change",
+				"changeMode"
+			],
+			[
+				"chan",
+				"changeMode"
+			],
+			[
+				"generate",
+				"GenerateCircle"
+			],
+			[
+				"basic",
+				"basicShader"
+			],
+			[
+				"push",
+				"NewPushMatrix"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 214.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
