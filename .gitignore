@@ -28,6 +28,4 @@
 *.out
 *.app
 
-bin/
-*.d
-out.png
+build/
