@@ -4,7 +4,8 @@
 #include "core/image.hpp"
 #include "core/vec4.hpp"
 
-using namespace radiate;
+//using namespace radiate;
+using namespace gmlib;
 
 int main()
 {
