@@ -11,13 +11,18 @@ using namespace gmlib;
 
 
 Vec4 colour(const Ray& r) {
-    if (intersectRaySphere(Sphere(Point4(0, 0, -1), 0.5f), r))
-        return Vec4(1, 0, 0);
+    auto s = Sphere(Point4(0, 0, -1), 0.5f);
+    float t = intersectRaySphere(s, r);
+    if (t > 0) {
+        auto normal = r.point(t) - s.centre();
+        normal.normalize();
+        return 0.5f * (normal + Vec4::One);
+    }
 
     // Miss, so render pretty blue gradient background
     auto dir = r.dir().normal();
-    auto t = 0.5f * (dir.y + 1.0f);
-    return (1.0f-t)*Vec4(1, 1, 1) + t*Vec4(0.5, 0.7, 1);
+    t = 0.5f * (dir.y + 1.0f);
+    return (1.0f-t)*Vec4::One + t*Vec4(0.5, 0.7, 1);
 }
 
 
