@@ -1,0 +1,5 @@
+List all cpp/hpp files from 'src':
+  du -a src | awk '{print $2}' | grep [ch]pp | sort
+  
+Build (from the build folder) (cmake doesn't seem to work):
+  make && ./radiate && open out.png
