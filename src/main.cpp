@@ -17,15 +17,13 @@ Vec4 colour(const Ray& r, const Scene& scene) {
 	HitRecord hit;
 	if (scene.hit(r, 0, std::numeric_limits<float>::max(), hit))
 	{
-		return 0.5f * (normal + Vec4::One);
+		return 0.5f * (hit._normal + Vec4::One);
 	}
 	else
 	{
 		// Miss, so render pretty blue gradient background
 	    auto dir = r.dir().normal();
-	    t = 0.5f * (dir.y + 1.0f);
-
-	    auto t = 0.0f;
+	    auto t = 0.5f * (dir.y + 1.0f);
 	    return (1.0f-t)*Vec4::One + t*Vec4(0.5, 0.7, 1);
 	}
 }
@@ -37,7 +35,7 @@ int main()
 
 	printf("radiate\n");
 	
-	Scene scene;
+	Scene scene; 
 	scene.add(new SphereObj(Point4(0, 0, -1), 0.5));
 	scene.add(new SphereObj(Point4(0, -100.5, -1), 100));
 
