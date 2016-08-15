@@ -43,7 +43,7 @@ int main()
     Vec4 viewSize(4, 2, 0);
     Point4 origin(0, 0, 0);
 
-    int w = 200, h = 100;
+    int w = 800, h = 400;
     Image img(w, h);
     for (auto y = 0; y < h; y++)
     {
@@ -52,7 +52,8 @@ int main()
             Vec4 uv(float(x) / float(w), float(y) / float(h), 0);
 
             Ray ray(origin, viewLowerLeftCorner + uv*viewSize);
-            img.set(x, y, colour(ray, scene));
+			// TODO Simplify y when camera is improved
+            img.set(x, h-y-1, colour(ray, scene));
         }
     }
     

@@ -8,3 +8,6 @@ add_executable(radiate src/main.cpp)
 target_link_libraries(radiate gmlib_core)
 target_link_libraries(radiate gmlib_obj)
 set_property(TARGET radiate PROPERTY CXX_STANDARD 14)
+
+# Use solution folders. 
+set_property(GLOBAL PROPERTY USE_FOLDERS ON)
