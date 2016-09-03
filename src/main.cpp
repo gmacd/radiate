@@ -1,23 +1,26 @@
 #include <cstdio>
 #include <limits>
-#include <random>
+#include <iostream>
 
 #include "core/camera.hpp"
 #include "core/debug.hpp"
 #include "core/image.hpp"
 #include "core/ray.hpp"
+#include "core/rnd.hpp"
+#include "core/timer.hpp"
 #include "core/vec4.hpp"
 #include "obj/obj.hpp"
 #include "obj/intersect.hpp"
 #include "obj/scene.hpp"
 
-//using namespace radiate;
+
+using namespace std;
 using namespace gmlib;
 
-
-Vec4 fireRay(const Ray& r, const Scene& scene) {
+Vec4 fireRay(const Ray& r, const Scene& scene)
+{
 	HitRecord hit;
-	if (scene.hit(r, 0, std::numeric_limits<float>::max(), hit))
+	if (scene.hit(r, 0, numeric_limits<float>::max(), hit))
 	{
 		return 0.5f * (hit._normal + Vec4::One);
 	}
@@ -46,9 +49,8 @@ int main()
 	int w = 400, h = 200;
     Image img(w, h);
 
-	// TODO Replace with fast rnd gen after investigation
-	std::random_device rndDev;
-	std::ranlux48_base rnd(rndDev());
+	Rnd rnd;
+	Timer timer;
 
     for (auto y = 0; y < h; y++)
     {
@@ -56,11 +58,11 @@ int main()
         {
 			// Anti-alias
 			Vec4 colour;
-			const int numSamples = 10;
+			const int numSamples = 50;
 			for (int s = 0; s < numSamples; s++)
 			{
-				float u = float(x + std::generate_canonical<float, 10>(rnd)) / float(w);
-				float v = float(y + std::generate_canonical<float, 10>(rnd)) / float(h);
+				float u = float(x + rnd.nextFloat()) / float(w);
+				float v = float(y + rnd.nextFloat()) / float(h);
 
 				Ray ray = camera.generateRay(u, v);
 
@@ -72,8 +74,14 @@ int main()
             img.set(x, h-y-1, colour);
         }
     }
+
+	timer.update();
+
+	printf("Completed in %fs\n", timer.totalElapsed());
     
     img.writePng("out.png");
+
+	cin.ignore();
 
 	return 0;
 }
