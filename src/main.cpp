@@ -1,6 +1,8 @@
 #include <cstdio>
 #include <limits>
+#include <random>
 
+#include "core/camera.hpp"
 #include "core/debug.hpp"
 #include "core/image.hpp"
 #include "core/ray.hpp"
@@ -13,7 +15,7 @@
 using namespace gmlib;
 
 
-Vec4 colour(const Ray& r, const Scene& scene) {
+Vec4 fireRay(const Ray& r, const Scene& scene) {
 	HitRecord hit;
 	if (scene.hit(r, 0, std::numeric_limits<float>::max(), hit))
 	{
@@ -24,7 +26,7 @@ Vec4 colour(const Ray& r, const Scene& scene) {
 		// Miss, so render pretty blue gradient background
 	    auto dir = r.dir().normal();
 	    auto t = 0.5f * (dir.y + 1.0f);
-	    return (1.0f-t)*Vec4::One + t*Vec4(0.5, 0.7, 1);
+	    return (1.0f-t)*Vec4::One + t*Vec4(0.5f, 0.7f, 1.0f);
 	}
 }
 
@@ -39,21 +41,35 @@ int main()
 	scene.add(new SphereObj(Point4(0, 0, -1), 0.5));
 	scene.add(new SphereObj(Point4(0, -100.5, -1), 100));
 
-    Vec4 viewLowerLeftCorner(-2, -1, -1);
-    Vec4 viewSize(4, 2, 0);
-    Point4 origin(0, 0, 0);
+	Camera camera;
 
-    int w = 800, h = 400;
+	int w = 400, h = 200;
     Image img(w, h);
+
+	// TODO Replace with fast rnd gen after investigation
+	std::random_device rndDev;
+	std::ranlux48_base rnd(rndDev());
+
     for (auto y = 0; y < h; y++)
     {
         for (auto x = 0; x < w; x++)
         {
-            Vec4 uv(float(x) / float(w), float(y) / float(h), 0);
+			// Anti-alias
+			Vec4 colour;
+			const int numSamples = 10;
+			for (int s = 0; s < numSamples; s++)
+			{
+				float u = float(x + std::generate_canonical<float, 10>(rnd)) / float(w);
+				float v = float(y + std::generate_canonical<float, 10>(rnd)) / float(h);
 
-            Ray ray(origin, viewLowerLeftCorner + uv*viewSize);
+				Ray ray = camera.generateRay(u, v);
+
+				colour += fireRay(ray, scene);
+			}
+			colour /= float(numSamples);
+
 			// TODO Simplify y when camera is improved
-            img.set(x, h-y-1, colour(ray, scene));
+            img.set(x, h-y-1, colour);
         }
     }
     
