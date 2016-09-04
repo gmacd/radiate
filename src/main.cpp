@@ -13,16 +13,16 @@
 #include "obj/intersect.hpp"
 #include "obj/scene.hpp"
 
-
 using namespace std;
 using namespace gmlib;
 
-Vec4 fireRay(const Ray& r, const Scene& scene)
+Vec4 fireRay(const Ray& r, const Scene& scene, Rnd& rnd)
 {
 	HitRecord hit;
-	if (scene.hit(r, 0, numeric_limits<float>::max(), hit))
+	if (scene.hit(r, 0.001f, numeric_limits<float>::max(), hit))
 	{
-		return 0.5f * (hit._normal + Vec4::One);
+		auto target = hit._point + hit._normal + rnd.nextVecInUnitSphere();
+		return 0.5f * fireRay(Ray(hit._point, target-hit._point), scene, rnd);
 	}
 	else
 	{
@@ -46,7 +46,7 @@ int main()
 
 	Camera camera;
 
-	int w = 400, h = 200;
+	int w = 800, h = 400;
     Image img(w, h);
 
 	Rnd rnd;
@@ -66,9 +66,12 @@ int main()
 
 				Ray ray = camera.generateRay(u, v);
 
-				colour += fireRay(ray, scene);
+				colour += fireRay(ray, scene, rnd);
 			}
 			colour /= float(numSamples);
+
+			// Gamma correct - gamma 2
+			colour = colour.sqrt();
 
 			// TODO Simplify y when camera is improved
             img.set(x, h-y-1, colour);
