@@ -1,3 +1,0 @@
-[submodule "src/gmlib"]
-	path = src/gmlib
-	url = https://github.com/gmacd/gmlib.git

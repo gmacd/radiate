@@ -1,22 +1,20 @@
-
 # TODO src/ for src files
 # TODO bin/ for .o files
 # TODO Stick dependencies in separate dir
 # TODO Disable exceptions, RTTI
-# TODO Build tools - submodule?
 
 TARGET=bin/radiate
 
 SRCS_EXCL_MAIN= \
-src/gmlib/core/camera.cpp \
-src/gmlib/core/debug.cpp \
-src/gmlib/core/image.cpp \
-src/gmlib/core/rnd.cpp \
-src/gmlib/core/timer.cpp \
-src/gmlib/core/vec4.cpp \
-src/gmlib/obj/intersect.cpp \
-src/gmlib/obj/obj.cpp \
-src/gmlib/obj/scene.cpp
+src/core/camera.cpp \
+src/core/debug.cpp \
+src/core/image.cpp \
+src/core/rnd.cpp \
+src/core/timer.cpp \
+src/core/vec4.cpp \
+src/obj/intersect.cpp \
+src/obj/obj.cpp \
+src/obj/scene.cpp
 
 SRC_MAIN = src/main.cpp
 
@@ -39,8 +37,7 @@ CPPFLAGS= \
 
 INCLUDES= \
 	-Isrc \
-	-Isrc/gmlib \
-	-Isrc/gmlib/third/include \
+	-Isrc/third/include \
 	-I.
 
 LDFLAGS= \
@@ -57,7 +54,7 @@ ifeq ($(DEBUG), 1)
 	CPPFLAGS += -g -DDEBUG
 	LDFLAGS += -g
 else
-	# Release
+	# Release (Default)
 	CPPFLAGS += -O3
 endif
 

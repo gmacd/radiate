@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="gmlib::Vec4">
+    <DisplayString>Vec4({x}, {y}, {z}, {w})</DisplayString>
+  </Type>
+
+  <Type Name="gmlib::Point4">
+    <DisplayString>Point({x}, {y}, {z})</DisplayString>
+  </Type>
+
+  <Type Name="gmlib::Ray">
+    <DisplayString>Ray(Origin: ({_origin.x}, {_origin.y}, {_origin.z}, {_origin.w}), Dir: ({_dir.x}, {_dir.y}, {_dir.z}, {_dir.w}))</DisplayString>
+  </Type>
+</AutoVisualizer>
