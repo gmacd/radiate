@@ -3,3 +3,4 @@ List all cpp/hpp files from 'src':
   
 Build (from the build folder) (cmake doesn't seem to work):
   make && ./radiate && open out.png
+  

@@ -84,7 +84,8 @@ int main()
     
     img.writePng("out.png");
 
-	cin.ignore();
+    // Maybe useful on Windows...
+	//cin.ignore();
 
 	return 0;
 }

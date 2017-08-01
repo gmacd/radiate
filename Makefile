@@ -1,5 +1,4 @@
 
-# TODO Debug/Release (NDEBUG for asserts)
 # TODO src/ for src files
 # TODO bin/ for .o files
 # TODO Stick dependencies in separate dir
@@ -9,9 +8,15 @@
 TARGET=bin/radiate
 
 SRCS_EXCL_MAIN= \
-src/core/maths.cpp \
-src/core/debug.cpp \
-src/core/image.cpp
+src/gmlib/core/camera.cpp \
+src/gmlib/core/debug.cpp \
+src/gmlib/core/image.cpp \
+src/gmlib/core/rnd.cpp \
+src/gmlib/core/timer.cpp \
+src/gmlib/core/vec4.cpp \
+src/gmlib/obj/intersect.cpp \
+src/gmlib/obj/obj.cpp \
+src/gmlib/obj/scene.cpp
 
 SRC_MAIN = src/main.cpp
 
@@ -27,7 +32,6 @@ RM=rm -f
 
 
 CPPFLAGS= \
-	-g -DDEBUG \
 	-Werror -Wall -Wextra \
 	-Wno-extra-tokens \
 	-std=c++1z \
@@ -35,15 +39,27 @@ CPPFLAGS= \
 
 INCLUDES= \
 	-Isrc \
-	-I. \
-	-Isrc/third/include
+	-Isrc/gmlib \
+	-Isrc/gmlib/third/include \
+	-I.
 
 LDFLAGS= \
-	-g -lc++
+	-stdlib=libc++ -lc++
 
 LDLIBS=
 #	-lglfw3 \
 #	-framework Cocoa -framework OpenGL -framework IOKit -framework CoreVideo
+
+
+DEBUG ?= 0
+ifeq ($(DEBUG), 1)
+	# Debug
+	CPPFLAGS += -g -DDEBUG
+	LDFLAGS += -g
+else
+	# Release
+	CPPFLAGS += -O3
+endif
 
 
 %.o : %.cpp
